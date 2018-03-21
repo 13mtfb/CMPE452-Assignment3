@@ -162,6 +162,9 @@
   <ItemGroup>
     <None Include="sound.csv" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="designChoices.txt.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

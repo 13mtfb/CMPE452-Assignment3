@@ -1,0 +1,22 @@
+1. Data Preprocessing
+	In order to acheive a higher training performance, the mean vector was subtracted from each sample input. This is known as mean centering, and it what
+	was done in example 5.9 in the PCA notes.
+
+2. Learning rate:
+	A number of observations went into choosing a learning rate which fit the problem at hand:
+		1. Data was normalized between -1 and 1, so too high of a learning rate would result in the network being unable to converge to a value
+		2. A learning rate of 0.9 was observed to result in too much fluctuation in the weight values
+		3. It was determined that the data was simple enough to allow for a smaller learning rate and thus more iterations before convergence
+	A learning rate of 0.1 was chosen.
+
+3. Initial Weights:
+	The purpose of the PCA network was to reduce the two input dimension to a single Principal Component (1 dimension), therefore only two weight
+	values were needed. It was observed that no matter what weight values were chosen, the network converged within one iteration of the input data.
+	A initial weight vector of {0.4, 0.6} was chosen.
+
+4. Final Weights:
+	The weight vector converged upon a value of {-0.213587, 0.233197} within 1 iteration of training.
+
+5. Terminating Criteria:
+	Due to the observation that the weight vectors converged within 1 iteration, and the fact that a single iteration takes negilible processing time on 
+	my computer, I ran the training for a fixed 10 iterations.	
