@@ -34,10 +34,24 @@
     <None Include="sound.csv">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="output.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="toWav.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="convert_to_wav.py">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Text Include="designChoices.txt.txt">
       <Filter>Resource Files</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="rec.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
   </ItemGroup>
 </Project>

@@ -160,10 +160,16 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="convert_to_wav.py" />
+    <None Include="output.csv" />
     <None Include="sound.csv" />
+    <None Include="toWav.csv" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="designChoices.txt.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="rec.wav" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
